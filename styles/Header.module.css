@@ -1,0 +1,18 @@
+.title a,
+.title span {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.headerBar{
+  display: flex;
+  background-color: #dddddd;
+  margin: 10px; 
+  justify-content: space-between;
+}

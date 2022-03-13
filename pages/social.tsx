@@ -4,7 +4,7 @@ export default function Social() {
   const [subs, setSubs] = useState(6000);
   useEffect(() => {
     const interval = setInterval(() => {
-      setSubs((sub) => subs + 1);
+      setSubs((subs) => subs + 1);
     }, 1000);
     return () => clearInterval(interval);
   }, []);
